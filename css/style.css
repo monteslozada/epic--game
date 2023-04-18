@@ -1,0 +1,143 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.box{
+    color: white;
+    font-size: 150px;
+    text-align: center;
+}
+
+.fondo-1{
+    background-image: url(../assest/imagenes/imagen\ de\ fondo12.webp);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
+.pie-pagina {
+ 
+    background-color: #070707; 
+   }
+  
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+  
+  .img-footer {
+    width: 300px;
+    height: 300px; }
+  
+  .red-social a {
+    display: inline-block;
+    text-decoration: none;
+      margin-right: 70px;
+    background-color: #f8fafc;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 60px; }
+
+
+
+
+
+
+.contenedor {
+    
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px; }
+  
+  .img_con {
+    width: 500px; }
+  
+  .img_con2 {
+    width: 800px; }
+  
+  .texto-contenedor {
+    padding-left: 25px; }
+  
+  .contenedor2 {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px; }
+  
+  .txt-contenedor2 {
+    padding-right: 25px; }
+
+
+.xbox{
+    background-color: rgb(16, 110, 16);
+}
+
+.ps4{
+    background-color: rgb(8, 8, 185);
+}
+
+
+
+
+
+.formulario {
+ background-image: url(../assest/imagenes/istockphoto-1400760806-612x612.jpg);
+ background-repeat:round;
+ 
+ background-size: cover;
+}
+
+form{
+    background-image: url(../assest/imagenes/istockphoto-1400760806-612x612.jpg);
+    width: 450px;
+    margin: auto;
+    background: rgb(5, 5, 5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+input, textarea{
+   
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+textarea{
+    min-height: 100px;
+    max-width: 200px;
+    max-width: 100%;
+
+}
+
+#boton{
+    background: #4a1a97;
+    color:white;
+    padding: 20px;
+
+}
+#boton:hover {
+    cursor: pointer;
+}
+
